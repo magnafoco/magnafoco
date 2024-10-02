@@ -1,0 +1,1 @@
+![Terminal window](https://github.com/magnafoco/magnafoco/raw/main/README.png)
