@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 580" role="img" aria-label="magnafoco GitHub profile terminal">
+  <style>
+    .bg       { fill: #272727; }
+    .chrome   { fill: #3c3c3c; }
+    .divider  { stroke: #1e1e1e; stroke-width: 1; }
+    .r        { fill: #ff5f56; }
+    .y        { fill: #ffbd2e; }
+    .g        { fill: #27c93f; }
+    .title    { fill: #c7c7c7; font: 12px ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .text     { font: 14px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #e6e6e6; }
+    .b        { font-weight: 700; }
+    .mute     { fill: #9a9a9a; }
+    .pink     { fill: #d49cff; }
+    .orange   { fill: #ff8a3d; }
+    .accent   { fill: #ff5f1f; font-weight: 700; }
+    @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+    .cursor   { fill: #e6e6e6; animation: blink 1s step-end infinite; }
+  </style>
+
+  <!-- window frame -->
+  <rect class="bg" width="648" height="580" rx="10" ry="10"/>
+  <rect class="chrome" x="0" y="0" width="648" height="36" rx="10" ry="10"/>
+  <rect class="chrome" x="0" y="18" width="648" height="18"/>
+  <line class="divider" x1="0" y1="36" x2="648" y2="36"/>
+  <circle class="r" cx="22" cy="18" r="6"/>
+  <circle class="y" cx="42" cy="18" r="6"/>
+  <circle class="g" cx="62" cy="18" r="6"/>
+  <text class="title" x="612" y="22" text-anchor="end">Terminal</text>
+
+  <!-- body -->
+  <g transform="translate(28, 70)">
+
+    <!-- fake reverse-shell banner -->
+    <text class="text">┌──(<tspan class="pink">unknown㉿evil</tspan>)-[<tspan class="orange">~/hacking</tspan>]</text>
+    <text class="text" y="20">└─<tspan class="orange">$</tspan> <tspan>nc -lvnp 1234</tspan></text>
+    <text class="text" y="40">listening on [any] 1234 ...</text>
+    <text class="text" y="60">connect to [XXX.XXX.XXX.XXX] from (UNKNOWN) [XXX.XXX.XXX.XXX] 43151</text>
+
+    <!-- welcome -->
+    <text class="text" y="100">Welcome to Magnafoco 🔥 GitHub profile — Unauthorized access</text>
+    <text class="text" y="120">detected.</text>
+    <text class="text" y="140">Last login: Tue Oct 5 22:45:30 on ttys001</text>
+
+    <!-- whoami -->
+    <text class="text" y="178"><tspan>magnafoco@github ~ %</tspan> <tspan>whoami</tspan></text>
+    <text class="text" y="200"><tspan class="b">Username:</tspan> magnafoco</text>
+    <text class="text" y="220"><tspan class="b">Location:</tspan> /dev/null</text>
+    <text class="text" y="240"><tspan class="b">Role:</tspan> Senior Penetration Tester · Red Teamer · Security Researcher</text>
+    <text class="text" y="260"><tspan class="b">Background:</tspan> SysAdmin → Offensive Security</text>
+
+    <text class="text" y="294">I'm passionate about ethical hacking, cybersecurity, and finding</text>
+    <text class="text" y="314">vulnerabilities to secure systems.</text>
+
+    <!-- badges prompt -->
+    <text class="text" y="352"><tspan>magnafoco@github ~ %</tspan> <tspan>cat ./badges.txt</tspan></text>
+    <text class="text mute" y="372">↓ (output rendered below)</text>
+
+    <!-- portfolio redirect -->
+    <text class="text" y="410"><tspan>magnafoco@github ~ %</tspan> <tspan>cd ~/portfolio &amp;&amp; open </tspan><tspan class="accent">magnafoco.github.io</tspan></text>
+    <text class="text mute" y="430">Opening main profile...</text>
+
+    <!-- exit -->
+    <text class="text" y="468"><tspan>magnafoco@github ~ %</tspan> <tspan>exit</tspan></text>
+    <text class="text" y="488">Connection closed by foreign host.</text>
+    <text class="text" y="516"><tspan class="cursor">_</tspan></text>
+  </g>
+</svg>
